@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Decomplosed/react-admin/issues"
   },
-  "homepage": "https://github.com/Decomplosed/react-admin#readme"
+  "homepage": "https://github.com/Decomplosed/react-admin#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }
