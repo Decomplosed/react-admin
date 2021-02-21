@@ -5,7 +5,7 @@ import restProvider from 'ra-data-simple-rest';
 function App() {
   return (
     <Admin dataProvider={restProvider('http://localhost:3000')}>
-      <Resource />
+      <Resource name='posts' list={PostList} />
     </Admin>
   );
 }
