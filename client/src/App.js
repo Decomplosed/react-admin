@@ -3,7 +3,7 @@ import { Admin, Resource } from 'react-admin';
 import restProvider from 'ra-data-simple-rest';
 
 function App() {
-  return <Admin></Admin>;
+  return <Admin dataProvider={restProvider()}></Admin>;
 }
 
 export default App;
