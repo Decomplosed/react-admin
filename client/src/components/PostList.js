@@ -8,7 +8,7 @@ import {
   DeleteButton,
 } from 'react-admin';
 
-const PostList = () => {
+const PostList = (props) => {
   return <div></div>;
 };
 
