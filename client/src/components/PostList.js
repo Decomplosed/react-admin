@@ -9,7 +9,11 @@ import {
 } from 'react-admin';
 
 const PostList = (props) => {
-  return <List {...props}></List>;
+  return (
+    <List {...props}>
+      <Datagrid></Datagrid>
+    </List>
+  );
 };
 
 export default PostList;
