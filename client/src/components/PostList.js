@@ -12,7 +12,7 @@ const PostList = (props) => {
   return (
     <List {...props}>
       <Datagrid>
-        <TextField source='id'></TextField>
+        <TextField source='id' />
       </Datagrid>
     </List>
   );
