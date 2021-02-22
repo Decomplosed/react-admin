@@ -7,7 +7,12 @@ import PostCreate from './components/PostCreate';
 function App() {
   return (
     <Admin dataProvider={restProvider('http://localhost:3000')}>
-      <Resource name='posts' list={PostList} create={PostCreate} />
+      <Resource
+        name='posts'
+        list={PostList}
+        create={PostCreate}
+        edit={PostEdit}
+      />
     </Admin>
   );
 }
