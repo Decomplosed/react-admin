@@ -14,7 +14,7 @@ const PostList = (props) => {
       <Datagrid>
         <TextField source='id' />
         <TextField source='title' />
-        <TextField source='publishedAt' />
+        <DateField source='publishedAt' />
       </Datagrid>
     </List>
   );
