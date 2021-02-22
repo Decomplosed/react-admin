@@ -11,7 +11,9 @@ import {
 const PostList = (props) => {
   return (
     <List {...props}>
-      <Datagrid></Datagrid>
+      <Datagrid>
+        <TextField></TextField>
+      </Datagrid>
     </List>
   );
 };
