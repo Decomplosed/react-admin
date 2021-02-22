@@ -1,7 +1,7 @@
 import React from 'react';
 import { Create, SimpleForm, TextInput, DateInput } from 'react-admin';
 
-const PostCreate = (props) => {
+const PostEdit = (props) => {
   return (
     <Create title='Create a Post...' {...props}>
       <SimpleForm>
@@ -13,4 +13,4 @@ const PostCreate = (props) => {
   );
 };
 
-export default PostCreate;
+export default PostEdit;
