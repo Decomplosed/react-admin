@@ -6,6 +6,7 @@ const PostCreate = (props) => {
     <Create title='Create a Post...' {...props}>
       <TextInput source='title' />
       <TextInput source='body' multiline />
+      <DateInput label='Published' source='publishedAt' />
     </Create>
   );
 };
