@@ -1,11 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { Create, SimpleForm, TextInput, DateInput } from 'react-admin';
 
 const PostCreate = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default PostCreate
+export default PostCreate;
