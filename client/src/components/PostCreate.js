@@ -4,7 +4,8 @@ import { Create, SimpleForm, TextInput, DateInput } from 'react-admin';
 const PostCreate = (props) => {
   return (
     <Create title='Create a Post...' {...props}>
-      <TextInput source='title'></TextInput>
+      <TextInput source='title' />
+      <TextInput source='body' multiline />
     </Create>
   );
 };
