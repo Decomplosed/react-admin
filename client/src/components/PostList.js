@@ -13,6 +13,7 @@ const PostList = (props) => {
     <List {...props}>
       <Datagrid>
         <TextField source='id' />
+        <TextField source='title' />
       </Datagrid>
     </List>
   );
