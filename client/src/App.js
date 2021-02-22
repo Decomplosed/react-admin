@@ -6,7 +6,7 @@ import PostList from './components/PostList';
 function App() {
   return (
     <Admin dataProvider={restProvider('http://localhost:3000')}>
-      <Resource name='posts' list={PostList} />
+      <Resource name='posts' list={PostList} create={PostCreate} />
     </Admin>
   );
 }
