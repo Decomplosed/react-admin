@@ -13,6 +13,7 @@ const UserList = (props) => {
     <List {...props}>
       <Datagrid>
         <TextField source='id' />
+        <TextField source='name' />
         <EditButton basePath='/users' />
         <DeleteButton basePath='/users' />
       </Datagrid>
