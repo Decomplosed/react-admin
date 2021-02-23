@@ -11,7 +11,9 @@ import {
 const UserList = () => {
   return (
     <List {...props}>
-      <Datagrid></Datagrid>
+      <Datagrid>
+        <EditButton />
+      </Datagrid>
     </List>
   );
 };
