@@ -9,7 +9,11 @@ import {
 } from 'react-admin';
 
 const UserList = () => {
-  return <List {...props}></List>;
+  return (
+    <List {...props}>
+      <Datagrid></Datagrid>
+    </List>
+  );
 };
 
 export default UserList;
