@@ -4,6 +4,7 @@ import restProvider from 'ra-data-simple-rest';
 import PostList from './components/PostList';
 import PostCreate from './components/PostCreate';
 import PostEdit from './components/PostEdit.js';
+import UserList from './components/UserList.js';
 
 function App() {
   return (
