@@ -6,6 +6,7 @@ import PostCreate from './components/PostCreate';
 import PostEdit from './components/PostEdit.js';
 import UserList from './components/UserList.js';
 import UserCreate from './components/UserCreate.js';
+import UserEdit from './components/UserEdit.js';
 
 function App() {
   return (
