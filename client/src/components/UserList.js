@@ -12,7 +12,7 @@ const UserList = () => {
   return (
     <List {...props}>
       <Datagrid>
-        <EditButton />
+        <EditButton basePath='/users' />
       </Datagrid>
     </List>
   );
