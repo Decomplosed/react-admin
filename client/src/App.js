@@ -14,7 +14,7 @@ function App() {
         create={PostCreate}
         edit={PostEdit}
       />
-      <Resource />
+      <Resource name='users' />
     </Admin>
   );
 }
