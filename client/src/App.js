@@ -16,7 +16,12 @@ function App() {
         create={PostCreate}
         edit={PostEdit}
       />
-      <Resource name='users' list={UserList} create={UserCreate} />
+      <Resource
+        name='users'
+        list={UserList}
+        create={UserCreate}
+        edit={UserEdit}
+      />
     </Admin>
   );
 }
