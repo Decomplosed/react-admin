@@ -6,6 +6,7 @@ const UserCreate = () => {
     <Create>
       <SimpleForm>
         <TextInput source='name' />
+        <TextInput source='email' />
       </SimpleForm>
     </Create>
   );
