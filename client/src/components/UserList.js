@@ -8,7 +8,7 @@ import {
   DeleteButton,
 } from 'react-admin';
 
-const UserList = () => {
+const UserList = (props) => {
   return (
     <List {...props}>
       <Datagrid>
