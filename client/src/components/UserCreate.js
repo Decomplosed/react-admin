@@ -4,7 +4,9 @@ import { Create, SimpleForm, TextInput } from 'react-admin';
 const UserCreate = () => {
   return (
     <Create>
-      <SimpleForm></SimpleForm>
+      <SimpleForm>
+        <TextInput source='name' />
+      </SimpleForm>
     </Create>
   );
 };
