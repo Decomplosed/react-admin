@@ -6,6 +6,7 @@ const UserEdit = () => {
     <Edit>
       <SimpleForm>
         <TextInput source='name' />
+        <TextInput />
       </SimpleForm>
     </Edit>
   );
