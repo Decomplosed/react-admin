@@ -1,7 +1,7 @@
 import React from 'react';
 import { Edit, SimpleForm, TextInput } from 'react-admin';
 
-const UserEdit = () => {
+const UserEdit = (props) => {
   return (
     <Edit title='Edit User'>
       <SimpleForm>
