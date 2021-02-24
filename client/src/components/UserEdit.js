@@ -3,7 +3,7 @@ import { Edit, SimpleForm, TextInput } from 'react-admin';
 
 const UserEdit = () => {
   return (
-    <Edit>
+    <Edit title='Edit User'>
       <SimpleForm>
         <TextInput source='name' />
         <TextInput source='email' />
