@@ -4,7 +4,9 @@ import { Edit, SimpleForm, TextInput } from 'react-admin';
 const UserEdit = () => {
   return (
     <Edit>
-      <SimpleForm></SimpleForm>
+      <SimpleForm>
+        <TextInput />
+      </SimpleForm>
     </Edit>
   );
 };
